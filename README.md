@@ -31,4 +31,9 @@ Frankly, I need more time to understand how to work with the data I have. My nex
 
 
 ##### Contact and Further Information
-email: julian@cadytech.com
+email: julian@cadytech.com  
+  
+In order to use the notebook, you will need the file from here:  
+https://data.cdc.gov/500-Cities-Places/PLACES-Local-Data-for-Better-Health-County-Data-20/swc5-untb/about_data  
+Press "Export" on the top right and place the file into a folder called "data."
+
