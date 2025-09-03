@@ -1,5 +1,5 @@
-# BerkeleyExtension_AIAssignment_FinalProject
-### CDC and Redlining Data
+# CDC and Redlining Data
+### BerkeleyExtension_AIAssignment_FinalProject
 
 **Julian Cady**
 
@@ -27,12 +27,8 @@ I found that a location's grade does not have a high correlation with asthma in 
 Frankly, I need more time to understand how to work with the data I have. My next step, personally, may involve asking ChatGPT to explain my own code to me to figure out what I may be misunderstanding.
 
 #### Outline of project
-
-- [Link to notebook 1]()
-- [Link to notebook 2]()
-- [Link to notebook 3]()
+- [Link to notebook](https://github.com/GitHusbando/BerkeleyExtension_AIAssignment_FinalProject/blob/main/final_project.ipynb)
 
 
 ##### Contact and Further Information
 email: julian@cadytech.com
-Any help is appreciated!
