@@ -13,8 +13,8 @@ I happen to believe that the racist practices of our past have a continuing effe
 Is an area's status as a historically redlined area a large predictor of health outcomes?
 
 #### Data Sources
-The data used are from the CDC PLACES dataset and the University of Richmond's Digital Scholarship Lab's redlining data.
-https://data.cdc.gov/500-Cities-Places/PLACES-Local-Data-for-Better-Health-County-Data-20/swc5-untb/data_preview
+The data used are from the CDC PLACES dataset and the University of Richmond's Digital Scholarship Lab's redlining data.  
+https://data.cdc.gov/500-Cities-Places/PLACES-Local-Data-for-Better-Health-County-Data-20/swc5-untb/data_preview  
 https://dsl.richmond.edu/panorama/redlining/data
 
 #### Methodology
