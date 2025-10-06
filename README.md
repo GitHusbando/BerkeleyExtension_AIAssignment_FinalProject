@@ -18,17 +18,16 @@ https://data.cdc.gov/500-Cities-Places/PLACES-Local-Data-for-Better-Health-Count
 https://dsl.richmond.edu/panorama/redlining/data
 
 #### Methodology
-Geodata from both sources are combined and used to train as accurate a model as possible, then coefficients are examined to determine their influence on the final outcome. In addition, a model trained on only grade (its redlining score, essentially) will be trained to see how accurate it can get.
+Geodata from both sources are combined and used to train several small models, then feature importances are examined to determine their influence on the final outcome. In addition, models trained on only grade (redlining score, essentially) are examined to see how accurate they are.
 
 #### Results
-I found that a location's grade does not have a high correlation with asthma in adults. The very simple linear regression model trained on only grade has a very bad score, further supporting the idea.
+Linear regression and SVM models trained with all the data zeroed in on specific location and population size as their main predictors of health outcome, along with a small focus on population size. This makes a lot of sense, as different states and cities are likely to have not only different health policies, but also different amounts of money, qualitative differences in data measurement, and, I'm sure, a whole host of other location-specific differences. Population density is likely correlated with America's rural/urban divide, which is a big predictor of poverty and distances between people and vital services. When given only grade, the models didn't do very well in predicting outcome because of the many important factors left out. Not unsurprising.
 
 #### Next steps
-Frankly, I need more time to understand how to work with the data I have. My next step, personally, may involve asking ChatGPT to explain my own code to me to figure out what I may be misunderstanding.
+The ideal next step would be to find more detailed redlining and health data for one specific area, such as a single city, or even a smaller area than that and focus on training a model for that specific location. That way, it would be able to learn the differences between redlined and non-redlined areas rather than the broader US trends observed by the models in this project. Unfortunately, now is not the ideal time for obtaining detailed health and demographic information, given... politics.
 
 #### Outline of project
 - [Link to notebook](https://github.com/GitHusbando/BerkeleyExtension_AIAssignment_FinalProject/blob/main/final_project.ipynb)
-
 
 ##### Contact and Further Information
 email: julian@cadytech.com  
